@@ -1,2 +1,10 @@
 [build]
-  functions = ""functions"
+functions = "build, clean, test, deploy, lint, watch"
+
+# Explanation:
+# - "build": Compiles or builds the project.
+# - "clean": Cleans up the build environment, removing temporary files.
+# - "test": Runs the test suite.
+# - "deploy": Deploys the project to a production or staging environment.
+# - "lint": Checks code quality by running a linter.
+# - "watch": Watches for file changes and automatically rebuilds or restarts the project.
