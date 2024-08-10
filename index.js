@@ -17,4 +17,3 @@ server.listen(process.env.PORT , ()=>{
     console.log(`Your Port is  ${process.env.PORT}`)
 })
 
-module.exports.handler(server)
